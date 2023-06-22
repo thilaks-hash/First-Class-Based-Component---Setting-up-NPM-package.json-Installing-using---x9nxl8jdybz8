@@ -14,7 +14,7 @@ class App extends React.Component {
       <>
         <h1>Hello, my name is {this.state.name}</h1>
         <p>
-          I am {this.state.age} years old and my enrollment no is
+          I am {this.state.age} years old and my enrollment no is{" "}
           {this.state.enrollmentNo}
         </p>
         <button onClick={this.Increaseage}>Increase age</button>
